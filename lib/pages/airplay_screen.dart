@@ -58,7 +58,6 @@ class _AirplayScreenState extends State<AirplayScreen> with AutomaticKeepAliveCl
   }
 
 
-
 @override
   // TODO: implement wantKeepAlive
   // bool get wantKeepAlive => throw UnimplementedError();
