@@ -12,7 +12,7 @@ class SliverAppBarDemo extends StatelessWidget {
   List<String>list=["ListViewdemo","SingleChildScrollViewdemo","PageViewdemo","Bottomdemo","DraggableDemo","besaier",
     "ExpansionTileDemo","WarpDemo","KeepAliveDemo","BottomNavigationWidget","AlertDialogDemo","TableDemo","CardDemo",
     "ProviderDemo","MvvmDemoView","Datapicker","Tabdemo","HonorDemoPage","AnimaDemoPage","ViewPagerDemoPage",
-  "BottomAnimNavPage"];
+  "BottomAnimNavPage","GestureDetectordemo","shared_preferences","SQLitedemo"];
   @override
   Widget build(BuildContext context) {
     return CustomScrollView(
@@ -30,9 +30,8 @@ class SliverAppBarDemo extends StatelessWidget {
                   child: _ListItem(title: list[index], shu: index,),
                 ),
               );
-
             },
-            childCount: 21
+            childCount: 24
           ),
         ),
       ],
@@ -128,13 +127,22 @@ class _ListItem extends StatelessWidget {
               Navigator.of(context).pushNamed( "HonorDemoPage");
               break;
             case 18:
-              Navigator.of(context).pushNamed( "AnimaDemoPage");
+              Navigator.of(context).pushNamed("AnimaDemoPage");
               break;
             case 19:
-              Navigator.of(context).pushNamed( "ViewPagerDemoPage");
+              Navigator.of(context).pushNamed("AnimaDemoPage");
               break;
             case 20:
-              Navigator.of(context).pushNamed( "ViewPagerDemoPage");
+              Navigator.of(context).pushNamed("AnimaDemoPage");
+              break;
+            case 21:
+              Navigator.of(context).pushNamed("GestureDetectordemo");
+              break;
+            case 22:
+              Navigator.of(context).pushNamed("shared_preferences");
+              break;
+            case 23:
+              Navigator.of(context).pushNamed("SQLitedemo");
               break;
           }
         }

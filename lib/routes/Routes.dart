@@ -10,6 +10,7 @@ import '../Widget/CardDemo/CardDemo.dart';
 import '../Widget/Datapickerdemo/Datapicker.dart';
 import '../Widget/DraggableDemo/DraggableDemo.dart';
 import '../Widget/DraggableDemo/DraggableDemo2.dart';
+import '../Widget/GestureDetectordemo/GestureDetectordemo.dart';
 import '../Widget/Listview/ListViewdemo.dart';
 import '../Widget/Listview/PageViewdemo.dart';
 import '../Widget/Listview/Pageseffect.dart';
@@ -26,6 +27,8 @@ import '../Widget/Specialeffect/besaier/besaier.dart';
 import '../Widget/SplashScreendemo/SplashScreen.dart';
 import '../Widget/Tabdemo/Tabdemo.dart';
 import '../Widget/TableDemo/TableDemo.dart';
+import '../Widget/shared_preferences_demo/SQLitedemo.dart';
+import '../Widget/shared_preferences_demo/shared_preferences.dart';
 import '../mvvmdemo/view/MvvmDemoView.dart';
 
 final Map<String, Function> routes = {
@@ -57,6 +60,9 @@ final Map<String, Function> routes = {
   'HonorDemoPage': (context) => HonorDemoPage(),
   'AnimaDemoPage': (context) => AnimaDemoPage(),
   'BottomAnimNavPage': (context) => AnimaDemoPage(),
+  'GestureDetectordemo': (context) => GestureDetectordemo(),
+  'shared_preferences': (context) => shared_preferences(),
+  'SQLitedemo': (context) => SQLitedemo(),
 
 };
 

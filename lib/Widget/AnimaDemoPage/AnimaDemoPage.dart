@@ -43,11 +43,11 @@ class _AnimaDemoPageState extends State<AnimaDemoPage>
       ),
 
       ///用封装好的 Transition 做动画
-      body: new RotationTransition(
+      body:  RotationTransition(
         turns: animation2 as Animation<double>,
-        child: new Container(
+        child:  Container(
           child: Center(
-            child: new Container(
+            child:  Container(
               height: 200,
               width: 200,
               color: Colors.greenAccent,
@@ -64,7 +64,7 @@ class _AnimaDemoPageState extends State<AnimaDemoPage>
 }
 
 class _AnimationPainter extends CustomPainter {
-  Paint _paint = new Paint();
+  Paint _paint =  Paint();
 
   Animation? animation;
 
